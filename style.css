@@ -1,0 +1,41 @@
+:root{
+    --wk1-background:   #463f047e;
+    --wk1-text:          #020c08f1;
+    --wk1-highlight:     #273b74e0;
+    --wk1-text-light:     #e3eef8;
+}
+
+body{
+    background-color: var(--wk1-background);
+    color:             var(--wk1-text);
+}
+
+.head{
+    background-color: var(--wk1-highlight);
+    font-size:medium;
+}
+
+.mid-section{
+    background-color: var(--wk1-highlight);
+    color:     var(--wk1-text-light);
+}
+
+.top-screen{
+    background-image: url("access/img/top-screen.png");
+}
+
+.card-text{
+    color: var(--wk1-highlight);
+}
+
+.center{
+  justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around; 
+}
+
+.space-between{
+    justify-content: space-between;
+}
