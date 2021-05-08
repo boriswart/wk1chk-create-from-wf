@@ -3,6 +3,7 @@
     --wk1-text:          #020c08f1;
     --wk1-highlight:     #273b74e0;
     --wk1-text-light:     #e3eef8;
+    --wk1-cloud:          #a69aa1;
 }
 
 body{
@@ -15,14 +16,34 @@ body{
     font-size:medium;
 }
 
+
+.top-screen{
+    background-image: url("access/img/top-screen.png");
+}
+
 .mid-section{
     background-color: var(--wk1-highlight);
     color:     var(--wk1-text-light);
 }
 
-.top-screen{
-    background-image: url("access/img/top-screen.png");
+.section-two{
+    background-color: whitesmoke;
 }
+
+.section-star{
+    background-color: var(--wk1-cloud);
+}
+
+.green-bar{
+    background-color: var(--wk1-highlight);
+    color: whitesmoke;
+}
+
+.white-bar{
+    background-color:  whitesmoke;
+    color:            var(--wk1-highlight);
+}
+
 
 .card-text{
     color: var(--wk1-highlight);
