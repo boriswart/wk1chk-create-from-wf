@@ -13,6 +13,7 @@ body{
 
 .head{
     background-color: var(--wk1-highlight);
+    font-family: 'Catamaran', sans-serif;
     font-size:medium;
 }
 
@@ -24,6 +25,7 @@ body{
 .mid-section{
     background-color: var(--wk1-highlight);
     color:     var(--wk1-text-light);
+    font-family: 'Catamaran', sans-serif;
 }
 
 .section-two{
