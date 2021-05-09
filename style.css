@@ -30,7 +30,7 @@ body{
     background-color: whitesmoke;
 }
 
-.section-star{
+.section-stars{
     background-color: var(--wk1-cloud);
 }
 
@@ -42,6 +42,17 @@ body{
 .white-bar{
     background-color:  whitesmoke;
     color:            var(--wk1-highlight);
+}
+
+.cta-box {
+    position: absolute;
+    top: -400;
+}
+
+@media screen and (max-width: 992px) {
+    .cta-box {
+        position: relative;
+    }
 }
 
 
